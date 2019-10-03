@@ -7,6 +7,6 @@ output: html_document
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/IMG_4763.jpg" style="border:10px solid; margin-right: 20px" align="left">
+<img src="images/IMG_4763.jpg" style="width:25% border:10px solid; margin-right: 20px" align="left">
 
 I am a broadly trained ecohydrologist focusing on increasing the representation of root system structure and function in computational models to help better understand how forests will respond to shifting climate regimes. I am a Postdoctoral Research Associate at [Oak Ridge National Laboratory](https://www.ornl.gov/division/esd) working on the [NGEE-Tropics](https://ngee-tropics.lbl.gov/) project.
