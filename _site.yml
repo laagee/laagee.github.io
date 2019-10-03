@@ -1,0 +1,20 @@
+name: "Elizabeth Agee"
+output_dir: "."
+navbar:
+  title: "Elizabeth Agee"
+  left:
+    - text: "Research"
+      href: research.html
+    - text: "Outreach"
+      href: outreach.html
+    - text: "CV"
+      href: cv.pdf
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/ecohydroliz
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
