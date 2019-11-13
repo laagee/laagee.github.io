@@ -8,7 +8,7 @@ navbar:
     - text: "Outreach"
       href: outreach.html
     - text: "CV"
-      href: cv.pdf
+      href: CV.pdf
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
