@@ -11,5 +11,7 @@ output: html_document
 <img src="images/sciart_4.jpeg" style="height:220px; border:5px solid;" align="center">
 <img src="images/sciart_5.jpeg" style="height:220px; border:5px solid;"  align="center">
 <img src="images/methods_illustration.png" style="height:220px; border:5px solid;"  align="center">
+<img src="images/sciart_6.jpeg" style="height:220px; border:5px solid;"  align="center">
+<img src="images/sciart_7.jpeg" style="height:220px; border:5px solid;"  align="center">
 
 

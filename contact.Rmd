@@ -1,4 +1,5 @@
 ---
+title: contact me
 output: html_document
 ---
 
@@ -6,5 +7,6 @@ output: html_document
 
 <font size="4">
 EMAIL: agee.elizabeth.a -at- gmail.com
-TWITTER: [@EcohydroLiz](http://twitter.com/ecohydroliz)
+<p>
+TWITTER: [EcohydroLiz](http://twitter.com/ecohydroliz)
 </font>
