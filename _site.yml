@@ -3,12 +3,12 @@ output_dir: "."
 navbar:
   title: "Elizabeth Agee"
   left:
-    - text: "Research"
-      href: research.html
-    - text: "Outreach"
-      href: outreach.html
+    - text: "SciArt"
+      href: sciart.html
     - text: "CV"
       href: CV.pdf
+    - text: "PFLOTRAN-Root"
+      href: https://github.com/laagee/pflotran-dev-root-system
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
@@ -16,5 +16,5 @@ navbar:
       href: https://twitter.com/ecohydroliz
 output:
   html_document:
-    theme: paper
+    theme: journal
     css: 'styles.css'

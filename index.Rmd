@@ -6,4 +6,9 @@ output: html_document
 
 <img src="images/IMG_4763.jpg" style="width:30%; border:5px solid; margin-right: 20px" align="left">
 
+<font size="5">
+*Elizabeth Agee, Ph.D.*
+
+<font size="4">
 I am a broadly trained ecohydrologist focusing on increasing the representation of root system structure and function in computational models to help better understand how forests will respond to shifting climate regimes. I am a Postdoctoral Research Associate at [Oak Ridge National Laboratory](https://www.ornl.gov/division/esd) working on the [NGEE-Tropics](https://ngee-tropics.lbl.gov/) project.
+</font>
