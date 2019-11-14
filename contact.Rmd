@@ -1,11 +1,10 @@
 ---
-title: "contact"
-author: "Liz Agee"
-date: "11/14/2019"
 output: html_document
 ---
 
 <img src="images/roots.jpg" style="width:30%; border:5px solid; margin-right: 20px" align="left">
 
+<font size="4">
 EMAIL: agee.elizabeth.a -at- gmail.com
 TWITTER: [@EcohydroLiz](http://twitter.com/ecohydroliz)
+</font>
