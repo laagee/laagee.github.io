@@ -5,8 +5,6 @@ navbar:
   left:
     - text: "SciArt"
       href: sciart.html
-    - text: "CV"
-      href: CV.pdf
     - text: "PFLOTRAN-Root"
       href: https://github.com/laagee/pflotran-dev-root-system
   right:
