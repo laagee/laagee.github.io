@@ -5,6 +5,8 @@ output: html_document
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
+## a collection of random doodles
+
 <img src="images/sciart_1.jpeg" style="height:220px; border:5px solid;" align="center">
 <img src="images/sciart_2.jpeg" style="height:220px; border:5px solid;"  align="center">
 <img src="images/sciart_3.jpeg" style="height:220px; border:5px solid;" align="center">

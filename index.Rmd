@@ -3,12 +3,39 @@ output: html_document
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
+<style>
+  .column-left{
+    float: left;
+    width: 50%;
+    text-align: left;
+  }
+  .column-right{
+    float: right;
+    width: 50%;
+    text-align: left;
+  }
+</style>
+&nbsp;  &nbsp;  
 
-<img src="images/IMG_4763.jpg" style="width:30%; border:5px solid; margin-right: 20px" align="left">
-
-<font size="5">
-*Elizabeth Agee, Ph.D.*
+# exploring ecosystems from roots to space
 
 <font size="4">
-I am a broadly trained ecohydrologist focusing on increasing the representation of root system structure and function in computational models to help better understand how forests will respond to shifting climate regimes. I am a Postdoctoral Research Associate at [Oak Ridge National Laboratory](https://www.ornl.gov/division/esd) working on the [NGEE-Tropics](https://ngee-tropics.lbl.gov/) project.
+The ways ecosystems respond to their environment is the amalgamation of processes that occur across a variety of spatial and temporal scales. Interactions between physical, chemical, and biological mechanisms create a nuanced landscape that invites questions from a broad disciplinary base. Our understanding of these processes and how they will respond to changing environmental conditions is at its best when we cultivate and integrate a diverse set of ideas and voices. __*My scientific philosophy centers around promoting integration and inclusion of methods, disciplines, and voices, while striving to celebrate the individuality of each.*__
+&nbsp;  &nbsp;  
+&nbsp;  &nbsp;  
 </font>
+<div class="row">
+<div class="column-left">
+<img src="images/IMG_5373.jpg" style="width:90%; border:5px solid; margin-right: 20px" align="right">
+</div>
+<div class="column-right">
+<font size="5">
+**about me:**  
+</font>
+<font size="4">
+I am a broadly trained ecohydrologist with research interests in ecosystem modeling, below-ground processes (#roots), data-model integration, and understanding how forests will respond to global change. I use a wide range of tools to address my research questions including empirical data collection, computational models, and remotely sensed observations.
+
+I am currently a Postdoctoral Research Associate at [Oak Ridge National Laboratory](https://www.ornl.gov/division/esd) working with the [NGEE-Tropics](https://ngee-tropics.lbl.gov/) project. You can also find me working with the [AGU Ecohydrology Technical Committee](https://www.aguecohydrology.org/) and the [Tropical Root Traits (TropiRoot)](https://tropiroottrait.github.io/TropiRootTrait/) group.
+</font>
+</div>
+</div>

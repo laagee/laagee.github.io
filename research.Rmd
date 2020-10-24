@@ -1,8 +1,121 @@
 ---
-title: "Research"
 output: html_document
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
+<style>
+  .column-left{
+    float: left;
+    width: 43%;
+    text-align: center;
+  }
+  .column-mid{
+    display: inline-block;
+    width: 2%;
+    text-align: center;
+  }
+  .column-right{
+    float: right;
+    width: 55%;
+    text-align: left;
+  }
+</style>
+&nbsp;  &nbsp;  
 
-<img src="images/IMG_7093.jpg" style="width:50%; border:5px solid; margin-right: 20px" align="left"> Placeholder text.
+## Digging below ground by...
+&nbsp;  
+<div class="row">
+<div class="column-left">
+<img src="images/belowground_1.png" style="width:85%; border:5px solid; margin-right: 0px" style="float:right">  
+&nbsp;  
+</div>
+<div class="column-center">
+</div>
+<div class="column-right">
+### improving root representation in models
+
+Mechanistic representation of root system structure and function is an enormous opportunity for terrestrial biosphere models. For terrestrial water cycling, where as much as two-thirds of water returns to the atmosphere through the vegetative water pathway, the interface of the soil water supply and the plant system is critical for predicting plant responses to water limitation and drought.  &nbsp;  
+
+PFLOTRAN-Root is a modified version of the PFLOTRAN reactive transport model which simulates three-dimensional root water uptake using the Couvreur macroscale hybridization technique. It has been applied to temperate and tropical forest systems to simulate individual water uptake for upwards of 1000 trees. Check out the [repo](https://github.com/laagee/pflotran-dev-root-system) for the current version.  &nbsp;  
+
+Agee, E., He L., Bisht, G., Couvreur, V., Shahbaz, P., Meunier, F., Gough, C.M., Matheny, A.M., Bohrer, G., and Ivanov, V.Y.  Root lateral interactions drive water uptake patterns under water limitation. (in review)
+</div>
+</div>
+
+ &nbsp;  &nbsp; 
+ 
+ <div class="row">
+<div class="column-left">
+<img src="images/field_measurements_1.jpg" style="width:85%; border:5px solid; margin-right: 0px" style="float:right">  
+&nbsp;  
+
+</div>
+<div class="column-center">
+</div>
+<div class="column-right">
+### quantifying root traits
+
+Data from our below-ground systems is severely lagging behind our above-ground system. While some great resources exist (check out [FRED](https://roots.ornl.gov/) -- it's awesome!), more work needs to be done, especially for biodiverse systems like the tropics. I am currently working the [Tropical Root Trait Initiative](https://tropiroottrait.github.io/TropiRootTrait/) to help gather together published and unpublished root trait data for tropical systems so we can use it pose research questions, test hypotheses, and generate knowledge needed for our next generation of below-ground models. 
+</div>
+</div>
+
+ &nbsp;  &nbsp; 
+ 
+## Linking above and below through...
+&nbsp;  
+
+<div class="row">
+<div class="column-left">
+<img src="images/IMG_4543.JPG" style="width:85%; border:5px solid; margin-right: 0px" style="float:right">  
+&nbsp;  
+*This tree in the FLONA Tapajós (Brazilian Amazon) has grown and is beginning to eat the sensor.*
+</div>
+<div class="column-center">
+</div>
+<div class="column-right">
+### field observations
+During my graduate studies in the [HydroWit](http://www-personal.umich.edu/~ivanov/HYDROWIT/HYDROWIT.html) lab, I helped build and deploy various networks of sensors to quantify water fluxes and stress in trees. These sensors, paired with concurrent below-ground observations, help give insights into the links between above-ground water demands and below-ground water supplies. You can read more about our work in the Brazilian Amazon in the press stories below and in future publications. 
+
+“Solve for Life.” *Re-engineering Radio* and *Michigan Engineering*. Story: Gabriel Cherry. Photos: Joseph Xu. 2019.  [podcast](https://shows.pippa.io/re-engineering-radio/episodes/solve-for-life), [article](https://news.engin.umich.edu/features/solve-for-life/)  
+&nbsp;  
+“Hands-on in the Amazon.” *Michigan Engineering*. Story: Gabriel Cherry. Photos: Joseph Xu. July 2019. [article](https://news.engin.umich.edu/2019/07/hands-on-in-the-amazon/)
+
+&nbsp;  &nbsp;  
+
+**Other Collaborations**: I am also currently involved in work going on at the University of Michigan Biological Station. The Forest Threshold and Resilience Experiment (FoRTE), led by PIs Chris Gough and Ben Bond-Lamberty, is examining how how disturbance thresholds impact carbon cycling (and much more). Check out the [FoRTE data package](https://fortexperiment.github.io/fortedata/index.html) available in R! 
+</div>
+</div>
+
+ &nbsp;  &nbsp;  
+
+<div class="row">
+<div class="column-left">
+<img src="images/IMG_7093.jpg" style="width:85%; border:5px solid; margin-right: 20px" align="right"> 
+</div>
+<div class="column-center">
+</div>
+<div class="column-right">
+### ecosystem modeling
+
+I am currently working as a postdoctoral research associate with the [NGEE-Tropics](https://ngee-tropics.lbl.gov/) project, supervised by Anthony Walker. We are using the [FATES](https://github.com/NGEET/fates) model to examine how tropical forest structure and function respond to nutrient fertility gradients. My current modeling efforts are focused in tall tropical forests of [Lambir Hills](https://forestgeo.si.edu/sites/asia/lambir), located in Malaysian Borneo. 
+</div>
+</div>
+
+ &nbsp;  &nbsp;  
+ 
+## Looking at the "big" picture by...
+&nbsp;  
+<div class="row">
+<div class="column-left">
+<img src="images/remote_sensing_1.png" style="width:85%; border:5px solid; margin-right: 20px" align="right"> 
+</div>
+<div class="column-center">
+</div>
+<div class="column-right">
+### analyzing remotely sensed data
+
+As a NASA Earth and Space Science Fellow, I used data from the Geostationary Operational Environmental Satellite (GOES) to estimate long-term hourly evapotranspiration for the entire Amazon River Basin using the Maximum Entropy Production model (MEP). Despite using fewer parameters than the gold-standard Penman-Monteith evapotranspiration models, our results show that the MEP method improves estimates of ET for tropical regions like the Amazon rainforests where cloud cover and dense vegetation increase observational uncertainty.  
+
+Xu, D., **Agee, E.**, Wang, J., and Ivanov,V.Y. Estimation of Evapotranspiration of Amazon rainforest with Maximum Entropy Production Theory. 2019. *Geophysical Research Letters.* [doi: 10.1029/2018GL080907](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL080907) **Top 10% Downloaded**
+</div>
+</div>

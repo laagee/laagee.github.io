@@ -1,8 +1,12 @@
 name: "Elizabeth Agee"
 output_dir: "."
 navbar:
-  title: "Elizabeth Agee"
+  title: "Elizabeth A. Agee, Ph.D."
   left:
+    - text: "Research"
+      href: research.html
+    - text: "CV"
+      href: CV.pdf
     - text: "SciArt"
       href: sciart.html
     - text: "PFLOTRAN-Root"
@@ -14,5 +18,5 @@ navbar:
       href: https://twitter.com/ecohydroliz
 output:
   html_document:
-    theme: journal
+    theme: flatly
     css: 'styles.css'
