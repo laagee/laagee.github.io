@@ -2,11 +2,52 @@
 title: contact me
 output: html_document
 ---
+<style>
+  .column-left{
+    float: left;
+    width: 43%;
+    text-align: center;
+  }
+  .column-mid{
+    display: inline-block;
+    width: 2%;
+    text-align: center;
+  }
+  .column-right{
+    float: right;
+    width: 55%;
+    text-align: left;
+  }
+</style>
+<div class="row">
+<div class="column-left">
+<img src="images/Amazon_JX202.JPG" style="width:80%; border:5px solid; margin-right: 20px" style="float:right">
+&nbsp;  *Repairing sap flow sensors in FLONA Tapajós.*  
+Photo credit: [Joseph Xu ](http://www.josephxu.com/)
 
-<img src="images/roots.jpg" style="width:30%; border:5px solid; margin-right: 20px" align="left">
-
+</div>
+<div class="column-mid">
+</div>
+<div class="column-right">
 <font size="4">
-EMAIL: agee.elizabeth.a -at- gmail.com
-<p>
-TWITTER: [EcohydroLiz](http://twitter.com/ecohydroliz)
+Thanks for reaching out! You can find me in the following places:
+&nbsp;  &nbsp;  
+**Email:** <agee.elizabeth.a@gmail.com>  
+**Twitter:** [EcohydroLiz](http://twitter.com/ecohydroliz)  
+**Github:** [laagee](https://github.com/laagee)  
+&nbsp;  &nbsp;  
+*Groups I've called home:*  
+[ORNL Ecosystem Processes Group](https://www.ornl.gov/group/ecosystem-processes)  
+[HydroWit](http://www-personal.umich.edu/~ivanov/HYDROWIT/HYDROWIT.html)  
+&nbsp;  &nbsp;  
+*Projects*  
+[NGEE-Tropics](https://ngee-tropics.lbl.gov/)  
+[Tropical Root Trait Initiative](https://tropiroottrait.github.io/TropiRootTrait/)  
+[FoRTE](https://fortexperiment.github.io/fortedata/index.html)   
+[UMBS](https://lsa.umich.edu/umbs)  
+&nbsp;  &nbsp;  
+*Service*  
+[AGU Ecohydrology](https://www.aguecohydrology.org/)  
+[Michigan-Earth Science Women's Network](https://www.facebook.com/groups/MESWN)  
+
 </font>

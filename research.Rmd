@@ -82,7 +82,7 @@ During my graduate studies in the [HydroWit](http://www-personal.umich.edu/~ivan
 
 &nbsp;  &nbsp;  
 
-**Other Collaborations**: I am also currently involved in work going on at the University of Michigan Biological Station. The Forest Threshold and Resilience Experiment (FoRTE), led by PIs Chris Gough and Ben Bond-Lamberty, is examining how how disturbance thresholds impact carbon cycling (and much more). Check out the [FoRTE data package](https://fortexperiment.github.io/fortedata/index.html) available in R! 
+**Other Collaborations**: I am also currently involved in work going on at the University of Michigan Biological Station. The Forest Resilience Threshold Experiment (FoRTE), led by PIs Chris Gough and Ben Bond-Lamberty, is examining how how disturbance thresholds impact carbon cycling (and much more). Check out the [FoRTE data package](https://fortexperiment.github.io/fortedata/index.html) available in R! 
 </div>
 </div>
 
