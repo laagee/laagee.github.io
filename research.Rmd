@@ -38,7 +38,7 @@ Mechanistic representation of root system structure and function is an enormous 
 
 PFLOTRAN-Root is a modified version of the PFLOTRAN reactive transport model which simulates three-dimensional root water uptake using the Couvreur macroscale hybridization technique. It has been applied to temperate and tropical forest systems to simulate individual water uptake for upwards of 1000 trees. Check out the [repo](https://github.com/laagee/pflotran-dev-root-system) for the current version.  &nbsp;  
 
-Agee, E., He L., Bisht, G., Couvreur, V., Shahbaz, P., Meunier, F., Gough, C.M., Matheny, A.M., Bohrer, G., and Ivanov, V.Y.  Root lateral interactions drive water uptake patterns under water limitation. (in review)
+Agee, E., He L., Bisht, G., Couvreur, V., Shahbaz, P., Meunier, F., Gough, C.M., Matheny, A.M., Bohrer, G., and Ivanov, V.Y.  Root lateral interactions drive water uptake patterns under water limitation. 2021. Advances in Water Resources. [doi.org/10.1016/j.advwatres.2021.103896](https://doi.org/10.1016/j.advwatres.2021.103896)
 </div>
 </div>
 
