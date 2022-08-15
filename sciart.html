@@ -13,7 +13,8 @@
 
 <title>sciart</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -58,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -253,19 +258,19 @@ $(document).ready(function () {
   <a href="sciart.html">SciArt</a>
 </li>
 <li>
-  <a href="https://github.com/laagee/pflotran-dev-root-system">PFLOTRAN-Root</a>
+  <a href="http://doi.org/10.5281/zenodo.3540881">PFLOTRAN-Root</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fa fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/ecohydroliz">
-    <span class="fas fa-twitter fa-lg"></span>
+    <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -284,9 +289,28 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<div id="a-collection-of-random-doodles" class="section level2">
-<h2>a collection of random doodles</h2>
+<div id="scientific-figures" class="section level2">
+<h2>Scientific Figures</h2>
+<div class="row">
+<div class="column-left">
+<p><img src="images/composite.png" style="width:35%; border:0px solid; margin-right: 0px"><br />
+  <em>Original Figure Mockup identifying elements of measured root morphology.</em></p>
+</div>
+<div class="column-center">
+
+</div>
+<div class="column-right">
+<p>Cusack, D.F., Addo-Danso, S.D., Agee, E.A., Andersen, K.M., Arnaud, M., Batterman, S.A., Brearley, F.Q., Ciochina, M.I., Cordeiro, A.L., Dallstream, C. and Diaz-Toribio, M.H., 2021. Tradeoffs and synergies in tropical forest root traits and dynamics for nutrient and water acquisition: field and modeling advances. Frontiers in Forests and Global Change, p.161. <a href="https://doi.org/10.3389/ffgc.2021.704469">https://doi.org/10.3389/ffgc.2021.704469</a></p>
+<p><a href="https://www.frontiersin.org/files/Articles/704469/ffgc-04-704469-HTML-r1/image_m/ffgc-04-704469-g001.jpg">Final Figure</a></p>
+</div>
+</div>
+<div class="row">
+<p>     </p>
+<div id="doodles" class="section level2">
+<h2>Doodles</h2>
 <p><img src="images/sciart_1.jpeg" style="height:220px; border:5px solid;" align="center"> <img src="images/sciart_2.jpeg" style="height:220px; border:5px solid;"  align="center"> <img src="images/sciart_3.jpeg" style="height:220px; border:5px solid;" align="center"> <img src="images/sciart_4.jpeg" style="height:220px; border:5px solid;" align="center"> <img src="images/sciart_5.jpeg" style="height:220px; border:5px solid;"  align="center"> <img src="images/methods_illustration.png" style="height:220px; border:5px solid;"  align="center"> <img src="images/sciart_6.jpeg" style="height:220px; border:5px solid;"  align="center"> <img src="images/sciart_7.jpeg" style="height:220px; border:5px solid;"  align="center"></p>
+</div>
+</div>
 </div>
 
 

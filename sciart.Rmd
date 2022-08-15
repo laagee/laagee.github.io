@@ -5,7 +5,32 @@ output: html_document
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-## a collection of random doodles
+## Scientific Figures
+ <div class="row">
+<div class="column-left">
+<img src="images/composite.png" style="width:35%; border:0px solid; margin-right: 0px">  
+&nbsp;
+*Original Figure Mockup identifying elements of measured root morphology.*
+
+</div>
+
+<div class="column-center">
+
+</div>
+
+<div class="column-right">
+
+Cusack, D.F., Addo-Danso, S.D., Agee, E.A., Andersen, K.M., Arnaud, M., Batterman, S.A., Brearley, F.Q., Ciochina, M.I., Cordeiro, A.L., Dallstream, C. and Diaz-Toribio, M.H., 2021. Tradeoffs and synergies in tropical forest root traits and dynamics for nutrient and water acquisition: field and modeling advances. Frontiers in Forests and Global Change, p.161. [https://doi.org/10.3389/ffgc.2021.704469](https://doi.org/10.3389/ffgc.2021.704469) 
+
+
+[Final Figure](https://www.frontiersin.org/files/Articles/704469/ffgc-04-704469-HTML-r1/image_m/ffgc-04-704469-g001.jpg)
+
+</div>
+</div>
+<div class="row">
+&nbsp; &nbsp; &nbsp;  
+
+## Doodles
 
 <img src="images/sciart_1.jpeg" style="height:220px; border:5px solid;" align="center">
 <img src="images/sciart_2.jpeg" style="height:220px; border:5px solid;"  align="center">
@@ -16,4 +41,4 @@ output: html_document
 <img src="images/sciart_6.jpeg" style="height:220px; border:5px solid;"  align="center">
 <img src="images/sciart_7.jpeg" style="height:220px; border:5px solid;"  align="center">
 
-
+</div>

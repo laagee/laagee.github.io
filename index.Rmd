@@ -35,7 +35,8 @@ The ways ecosystems respond to their environment is the amalgamation of processe
 <font size="4">
 I am a broadly trained ecohydrologist with research interests in ecosystem modeling, below-ground processes (#roots), data-model integration, and understanding how forests will respond to global change. I use a wide range of tools to address my research questions including empirical data collection, computational models, and remotely sensed observations.
 
-I am currently a Postdoctoral Research Associate at [Oak Ridge National Laboratory](https://www.ornl.gov/division/esd) working with the [NGEE-Tropics](https://ngee-tropics.lbl.gov/) project. You can also find me working with the [AGU Ecohydrology Technical Committee](https://www.aguecohydrology.org/) and the [Tropical Root Traits (TropiRoot)](https://tropiroottrait.github.io/TropiRootTrait/) group.
+I am currently working with the [Department of Energy's Office of Scientific and Technical Information](https://www.osti.gov) helping support the mission of collecting, preserving, and disseminating federally funded research. 
+
 </font>
 </div>
 </div>

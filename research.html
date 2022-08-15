@@ -11,9 +11,10 @@
 
 
 
-<title>research.utf8</title>
+<title>research.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -58,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -259,13 +264,13 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fa fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/ecohydroliz">
-    <span class="fas fa-twitter fa-lg"></span>
+    <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -301,8 +306,8 @@ $(document).ready(function () {
   }
 </style>
 <p>   </p>
-<div id="digging-below-ground-by" class="section level2">
-<h2>Digging below ground by…</h2>
+<div id="research-projects" class="section level2">
+<h2>Research Projects</h2>
  <br />
 
 <div class="row">
@@ -313,11 +318,12 @@ $(document).ready(function () {
 <div class="column-center">
 
 </div>
-<div class="column-right">
-<h3 id="improving-root-representation-in-models">improving root representation in models</h3>
+<div id="representation-of-roots-in-models" class="section level3 column-right">
+<h3>Representation of Roots in Models</h3>
 <p>Mechanistic representation of root system structure and function is an enormous opportunity for terrestrial biosphere models. For terrestrial water cycling, where as much as two-thirds of water returns to the atmosphere through the vegetative water pathway, the interface of the soil water supply and the plant system is critical for predicting plant responses to water limitation and drought.  </p>
-<p>PFLOTRAN-Root is a modified version of the PFLOTRAN reactive transport model which simulates three-dimensional root water uptake using the Couvreur macroscale hybridization technique. It has been applied to temperate and tropical forest systems to simulate individual water uptake for upwards of 1000 trees. Check out the <a href="https://github.com/laagee/pflotran-dev-root-system">repo</a> for the current version.  </p>
-<p>Agee, E., He L., Bisht, G., Couvreur, V., Shahbaz, P., Meunier, F., Gough, C.M., Matheny, A.M., Bohrer, G., and Ivanov, V.Y. Root lateral interactions drive water uptake patterns under water limitation. 2021. Advances in Water Resources. <a href="https://doi.org/10.1016/j.advwatres.2021.103896">doi.org/10.1016/j.advwatres.2021.103896</a></p>
+<p>PFLOTRAN-Root is a modified version of the PFLOTRAN reactive transport model which simulates three-dimensional root water uptake using the Couvreur macroscale hybridization technique. It has been applied to temperate and tropical forest systems to simulate individual water uptake for upwards of 1000 trees.  </p>
+<p><strong>Agee, E.</strong>, He L., Bisht, G., Couvreur, V., Shahbaz, P., Meunier, F., Gough, C.M., Matheny, A.M., Bohrer, G., and Ivanov, V.Y. Root lateral interactions drive water uptake patterns under water limitation. 2021. Advances in Water Resources. <a href="https://doi.org/10.1016/j.advwatres.2021.103896">doi.org/10.1016/j.advwatres.2021.103896</a></p>
+<p>Bisht, G., <strong>Agee, E.</strong>, He., L., Couvreur, V. and V.Y. Ivanov. PFLOTRAN-Root: a three-dimensional model of soil water physics and root water uptake. 2019. laagee/pflotran-dev-root-system: PFLOTRANRoot v0.0 (Version v0.0). Zenodo. <a href="http://doi.org/10.5281/zenodo.3540881">doi.org/10.5281/zenodo.3540881</a></p>
 </div>
 </div>
 <p>   </p>
@@ -329,16 +335,13 @@ $(document).ready(function () {
 <div class="column-center">
 
 </div>
-<div class="column-right">
-<h3 id="quantifying-root-traits">quantifying root traits</h3>
-<p>Data from our below-ground systems is severely lagging behind our above-ground system. While some great resources exist (check out <a href="https://roots.ornl.gov/">FRED</a> – it’s awesome!), more work needs to be done, especially for biodiverse systems like the tropics. I am currently working the <a href="https://tropiroottrait.github.io/TropiRootTrait/">Tropical Root Trait Initiative</a> to help gather together published and unpublished root trait data for tropical systems so we can use it pose research questions, test hypotheses, and generate knowledge needed for our next generation of below-ground models.</p>
+<div id="quantifying-root-traits" class="section level3 column-right">
+<h3>Quantifying Root Traits</h3>
+<p>Data from our below-ground systems is severely lagging behind our above-ground system. While some great resources exist (check out <a href="https://roots.ornl.gov/">FRED</a> – it’s awesome!), more work needs to be done, especially for biodiverse systems like the tropics. Previously, I participated with the <a href="https://tropiroottrait.github.io/TropiRootTrait/">Tropical Root Trait Initiative</a> to help gather together published and unpublished root trait data for tropical systems so we can use it pose research questions, test hypotheses, and generate knowledge needed for our next generation of below-ground models.  </p>
+<p>Cusack, D.F., Addo-Danso, S.D., <strong>Agee, E.A</strong>., Andersen, K.M., Arnaud, M., Batterman, S.A., Brearley, F.Q., Ciochina, M.I., Cordeiro, A.L., Dallstream, C. and Diaz-Toribio, M.H., 2021. Tradeoffs and synergies in tropical forest root traits and dynamics for nutrient and water acquisition: field and modeling advances. Frontiers in Forests and Global Change, p.161. <a href="https://doi.org/10.3389/ffgc.2021.704469">doi.org/10.3389/ffgc.2021.704469</a></p>
 </div>
 </div>
-<p>   </p>
-</div>
-<div id="linking-above-and-below-through" class="section level2">
-<h2>Linking above and below through…</h2>
-<p> </p>
+<p>     </p>
 <div class="row">
 <div class="column-left">
 <p><img src="images/IMG_4543.JPG" style="width:85%; border:5px solid; margin-right: 0px" style="float:right"><br />
@@ -349,34 +352,23 @@ $(document).ready(function () {
 
 </div>
 <div class="column-right">
-<h3 id="field-observations">field observations</h3>
+<div id="brazilian-amazon" class="section level3">
+<h3>Brazilian Amazon</h3>
 <p>During my graduate studies in the <a href="http://www-personal.umich.edu/~ivanov/HYDROWIT/HYDROWIT.html">HydroWit</a> lab, I helped build and deploy various networks of sensors to quantify water fluxes and stress in trees. These sensors, paired with concurrent below-ground observations, help give insights into the links between above-ground water demands and below-ground water supplies. You can read more about our work in the Brazilian Amazon in the press stories below and in future publications.</p>
 <p>“Solve for Life.” <em>Re-engineering Radio</em> and <em>Michigan Engineering</em>. Story: Gabriel Cherry. Photos: Joseph Xu. 2019. <a href="https://shows.pippa.io/re-engineering-radio/episodes/solve-for-life">podcast</a>, <a href="https://news.engin.umich.edu/features/solve-for-life/">article</a><br />
  <br />
 “Hands-on in the Amazon.” <em>Michigan Engineering</em>. Story: Gabriel Cherry. Photos: Joseph Xu. July 2019. <a href="https://news.engin.umich.edu/2019/07/hands-on-in-the-amazon/">article</a></p>
 <p>   </p>
-<p><strong>Other Collaborations</strong>: I am also currently involved in work going on at the University of Michigan Biological Station. The Forest Resilience Threshold Experiment (FoRTE), led by PIs Chris Gough and Ben Bond-Lamberty, is examining how how disturbance thresholds impact carbon cycling (and much more). Check out the <a href="https://fortexperiment.github.io/fortedata/index.html">FoRTE data package</a> available in R!</p>
+</div>
+<div id="university-of-michigan-biological-station" class="section level3">
+<h3>University of Michigan Biological Station</h3>
+<p>Check out the <a href="https://fortexperiment.github.io/fortedata/index.html">FoRTE data package</a> available in R!</p>
+<p>Atkins J.W., <strong>Agee, E.</strong>, Barry, A., Dahlin, K.M., Dorheim, K., Haber, L.T., Hickey, L.J., Grigri, M.S., Mathes, K., McQuigan, C., Paris, E., Pennington, S.C., Rodriguez, C., Shafer, A., Shiklomanov, A., Tallant, J., Gough, C.M., and Bond-Lamberty, B. The fortedata R package: open-science datasets from a manipulative experiment testing forest resilience. 2020. Earth System Science Data. <a href="https://doi.org/10.5194/essd-13-943-2021" class="uri">https://doi.org/10.5194/essd-13-943-2021</a>.</p>
+<p>Gough, C.M., Atkins, J.W., Bond-Lamberty, B., <strong>Agee, E.</strong>, Dorheim, K., Fahey, R., Grigri, M., Haber, L., Mathes, K., Pennington, S., Schiklomanov, A., Tallant, J. Diversity, structure and complexity as predictors of carbon cycling resistance to disturbance. 2020. Ecosystems; 24(3). <a href="https://doi.org/10.1007/s10021-020-00544-1" class="uri">https://doi.org/10.1007/s10021-020-00544-1</a>.</p>
 </div>
 </div>
-<p>   </p>
-<div class="row">
-<div class="column-left">
-<p><img src="images/IMG_7093.jpg" style="width:85%; border:5px solid; margin-right: 20px" align="right"></p>
 </div>
-<div class="column-center">
-
-</div>
-<div class="column-right">
-<h3 id="ecosystem-modeling">ecosystem modeling</h3>
-<p>I am currently working as a postdoctoral research associate with the <a href="https://ngee-tropics.lbl.gov/">NGEE-Tropics</a> project, supervised by Anthony Walker. We are using the <a href="https://github.com/NGEET/fates">FATES</a> model to examine how tropical forest structure and function respond to nutrient fertility gradients. My current modeling efforts are focused in tall tropical forests of <a href="https://forestgeo.si.edu/sites/asia/lambir">Lambir Hills</a>, located in Malaysian Borneo.</p>
-</div>
-</div>
-<p>   </p>
-</div>
-<div id="looking-at-the-big-picture-by" class="section level2">
-<h2>Looking at the “big” picture by…</h2>
- <br />
-
+<p>     </p>
 <div class="row">
 <div class="column-left">
 <p><img src="images/remote_sensing_1.png" style="width:85%; border:5px solid; margin-right: 20px" align="right"></p>
@@ -384,8 +376,8 @@ $(document).ready(function () {
 <div class="column-center">
 
 </div>
-<div class="column-right">
-<h3 id="analyzing-remotely-sensed-data">analyzing remotely sensed data</h3>
+<div id="remotely-sensed-evapotranspiration" class="section level3 column-right">
+<h3>Remotely-sensed Evapotranspiration</h3>
 <p>As a NASA Earth and Space Science Fellow, I used data from the Geostationary Operational Environmental Satellite (GOES) to estimate long-term hourly evapotranspiration for the entire Amazon River Basin using the Maximum Entropy Production model (MEP). Despite using fewer parameters than the gold-standard Penman-Monteith evapotranspiration models, our results show that the MEP method improves estimates of ET for tropical regions like the Amazon rainforests where cloud cover and dense vegetation increase observational uncertainty.</p>
 <p>Xu, D., <strong>Agee, E.</strong>, Wang, J., and Ivanov,V.Y. Estimation of Evapotranspiration of Amazon rainforest with Maximum Entropy Production Theory. 2019. <em>Geophysical Research Letters.</em> <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL080907">doi: 10.1029/2018GL080907</a> <strong>Top 10% Downloaded</strong></p>
 </div>

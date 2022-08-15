@@ -11,9 +11,10 @@
 
 
 
-<title>index.utf8</title>
+<title>index.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -58,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -259,13 +264,13 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fa fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/ecohydroliz">
-    <span class="fas fa-twitter fa-lg"></span>
+    <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
@@ -308,7 +313,8 @@ $(document).ready(function () {
 <div class="column-right">
 <p><font size="5"> <strong>about me:</strong><br />
 </font> <font size="4"> I am a broadly trained ecohydrologist with research interests in ecosystem modeling, below-ground processes (#roots), data-model integration, and understanding how forests will respond to global change. I use a wide range of tools to address my research questions including empirical data collection, computational models, and remotely sensed observations.</p>
-<p>I am currently a Postdoctoral Research Associate at <a href="https://www.ornl.gov/division/esd">Oak Ridge National Laboratory</a> working with the <a href="https://ngee-tropics.lbl.gov/">NGEE-Tropics</a> project. You can also find me working with the <a href="https://www.aguecohydrology.org/">AGU Ecohydrology Technical Committee</a> and the <a href="https://tropiroottrait.github.io/TropiRootTrait/">Tropical Root Traits (TropiRoot)</a> group. </font></p>
+<p>I am currently working with the <a href="https://www.osti.gov">Department of Energy’s Office of Scientific and Technical Information</a> helping support the mission of collecting, preserving, and disseminating federally funded research.</p>
+<p></font></p>
 </div>
 </div>
 </div>

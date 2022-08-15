@@ -10,7 +10,7 @@ navbar:
     - text: "SciArt"
       href: sciart.html
     - text: "PFLOTRAN-Root"
-      href: https://github.com/laagee/pflotran-dev-root-system
+      href: http://doi.org/10.5281/zenodo.3540881
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
